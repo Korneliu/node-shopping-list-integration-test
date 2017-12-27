@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: i3XBANlphPWkhTh/QvgcXPA5vYDrJzP79Jy2+2APxBSJPjCpcuSy3hSGVsJR7jswrC0h0t1Yt4qrEPrfxOf05+Wu0JSh6gXdTNpCePMUS0rMzzpWVlcrUh10jswHrVrJz2I0VTmy+ImyBsVfHeNJj1PMkthNjaO9uHpSuzOSknl5BzuHQtaHzhEbBOAq3+zz+jHmKu8AQjqpwemexBlJgy6E4SOTMF8KXtkQOduPW5xKBsbnLG4BAXcFHvGnOJg/BOBjnfBecPPqp5Vvm7xGtVOZqnjm8P/VXhmyX9N6DfeCpkHNPVFOB+JGN9P62nT6WNxF+MKYy0n7EvBLHn7Sn7R9yPbt/P57P/RHNf7TkpZNAS/DtwE5JASF9K3sUnZd+WjoguCpjeIW2xEe0S6tjlu67xlpoiie6x0PV8x40W4M6PFSIuCD+B/YUppyBD6KjKWmvPD8UGmwqJ9dyLOBTL8iYla3BSbLPiIquSbjkbf/xu/lidpDqFRh+sZWJSlPBqIJ0Z/Gm5tM7S5Lu7tJEahM9Ez+KGS9kAuQMnDsQbm2JyHm57QlO8vofZgtrAmlEGciicyIKjj2PCsdFKfoTnNB9S8YzFFbN7ovVOrUB9IgiMzxOqbImbeRe6BtvxveXjULHQETrQVDhVSS4RCumaZKa/2O7O+7zr5VACTZeMU=
+  app: hidden-reef-47679
+  on:
+    repo: Korneliu/node-shopping-list-integration-test
