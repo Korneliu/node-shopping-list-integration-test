@@ -1,9 +1,2 @@
 language: node_js
 node_js: node
-deploy:
-  provider: heroku
-  api_key:
-    secure: NrIo6s79oitSlS1Ux+qJhw72+jUFXbw5drhutaQTzIeIqZXmba4OTJcMiGyTCMWQFBweaOEp9XXF4uKts7XNyPBOGUWKUGytMeSXU8VMTOUT7SyucbEdEdiQa/3tTNB2ksCiINDxIQtVs6nUdRB9QoRKePAqvkzRZozE2nsz5s/9rRg6TfyWa2909GLhU/bIog8sUnajKc6AcKy5eGnrFUDO6+aO4pesO4lBYOa4XKDi8xui7HAs/nwi4cNY/XazdhANeNEh8gFsCikFQMBzCG2LJfiHu0CZEm+ZWDuRD9sMn3ugVquRIM7QsfK48fkoFQuay5D3Vf5xnfUZs2r2Vv/JkzuCB6OL0niU3EzIU4ESsD5utADGkcn/51R852Kno3dX9u2WP6OgACMJtgpCZJZCYeIiMNAEUEv0PbEvYW/0o3rwOfqrRos5gn6kEDk6w5Dqzh7LaZlfc7OoKXFGOsT6bHznZ+AzkPOzqvgCYS9Y23w6G+NwUnszyBv1No61rE89lZypJgiIrHaAi0tvlFcRhRtHYbcd8hNiuBD+M1v4h/92EkTtnY8N8SEJ8CYX6L+/4kc9S2mspMlQ2mdFoLFcxrJbWI/upc1zrEU/clOD+yCIL+rD8uvbnxvI6stYiFIyZXfo1q/16nitopKOcRr8chBsI8pwwvvADiY4Wr8=
-  app: peaceful-mountain-14282
-  on:
-    repo: Korneliu/node-shopping-list-integration-tests
